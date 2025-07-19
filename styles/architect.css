@@ -37,6 +37,11 @@
    border: none;
    margin-top: 10px;
 }
+
+.btn-primary:hover {
+    transform: translateY(-4px);
+    color: rgba(172, 97, 11, 0.911);
+}
 .main{
     max-width: 1440px;
     margin: 0 auto;
@@ -306,6 +311,11 @@
         font-size: 10px;
     }
 
+    /* .btn-primary:hover {
+    transform: translateY(-4px);
+    color: rgba(172, 97, 11, 0.911);
+} */
+
 }
 
 /* responsive for medium device */
@@ -353,5 +363,7 @@
     font-size: 20px;
     text-align: center;
 }
+
+
 }
 
